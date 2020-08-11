@@ -1,0 +1,22 @@
+.container.content {
+    margin-top: 40px;
+}
+
+.row.post {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+nav {
+    border-radius: 5px;
+    margin-top: 10px !important;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
