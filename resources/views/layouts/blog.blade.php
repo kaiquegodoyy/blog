@@ -25,14 +25,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href=" {{ route('blog.index') }} ">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" tabindex="-1" href="#">Sobre</a>
                     </li>
                     </ul>
                     
-                    <form method="GET" action="{{ route('index.blog') }}" class="form-inline my-2 my-lg-0">
+                    <form method="GET" action="{{ route('blog.index') }}" class="form-inline my-2 my-lg-0">
                         <input name="search" class="form-control mr-sm-2" type="search" placeholder="Post" aria-label="Search">
                         <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
                     </form>
