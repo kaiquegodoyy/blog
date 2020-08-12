@@ -21,4 +21,10 @@ class BlogController extends Controller
 
         return view('blog.posts', compact('posts'));
     }
+
+
+    public function sobre()
+    {
+        return view('blog.sobre');
+    }
 }
