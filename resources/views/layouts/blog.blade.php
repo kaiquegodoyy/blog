@@ -31,6 +31,11 @@
                         <a class="nav-link" tabindex="-1" href="#">Sobre</a>
                     </li>
                     </ul>
+                    
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Post" aria-label="Search">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
                 
                 </div>
                 </nav>
