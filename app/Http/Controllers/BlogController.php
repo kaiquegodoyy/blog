@@ -27,4 +27,12 @@ class BlogController extends Controller
     {
         return view('blog.sobre');
     }
+
+
+    public function post(Request $request, $postId)
+    {
+        $post = Post::find($postId);
+
+        return view('blog.postdetail',compact('post'));
+    }
 }

@@ -2,10 +2,9 @@
 
 @section('content')
 
-@foreach ($posts as $post)
     <div class="row post">
-        <h4><a href="{{ route('blog.post', $post->id) }}"> {{ $post->title }} </a></h4>
-        <p> {{ limitWordByText($post->content).'...' }} </p>
+        <h4> {{ $post->title }} </h4>
+        <p>  {{ $post->content }} </p>
         <div class="col-md-8 col-sm-12">
             <img class="profile mr-3" src="{{ url('image/kaique.jpg') }}" alt="Imagem não localizada">{{ $post->author }}
         </div>
@@ -13,9 +12,5 @@
             Data: {{ $post->created_at }}
         </div>
     </div>    
-@endforeach
-
-{{ $posts->links() }}
-
+    
 @endsection
-
